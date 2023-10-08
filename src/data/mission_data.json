@@ -1,0 +1,77 @@
+[
+    {
+        "mission": "Apollo 11",
+        "program": "Apollo",
+        "agency": "NASA",
+        "date": "1969-7-20",
+        "url": "https://www.nasa.gov/mission/apollo-11/",
+        "lat": 0.6737,
+        "lng": 23.47295,
+        "seismometer": {
+            "type": "Passive Seismic Experiment (PSE)",
+            "deployment_date": "July 20, 1969",
+            "location": "Tranquility Base, Mare Tranquillitatis"
+        },
+        "description": "The historic mission that landed the first humans on the Moon."
+    },
+    {
+        "mission": "Apollo 12",
+        "program": "Apollo",
+        "agency": "NASA",
+        "date": "1969-11-19",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-12-the-pinpoint-mission/",
+        "lat": -3.01184,
+        "lng": -23.42156,
+        "seismometer": {
+            "type": "Apollo Lunar Surface Experiments Package (ALSEP) Seismic Profiling Experiment (SPE)",
+            "deployment_date": "November 19, 1969",
+            "location": "Oceanus Procellarum"
+        },
+        "description": "Second successful lunar landing, targeting the Oceanus Procellarum region."
+    },
+    {
+        "mission": "Apollo 14",
+        "program": "Apollo",
+        "agency": "NASA",
+        "date": "1971-2-5",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-14-mission-details/",
+        "lat": -3.64450,
+        "lng": -17.47753,
+        "seismometer": {
+            "type": "Apollo Lunar Surface Experiments Package (ALSEP) Seismic Profiling Experiment (SPE)",
+            "deployment_date": "February 5, 1971",
+            "location": "Fra Mauro Highlands"
+        },
+        "description": "Exploration of the Fra Mauro Highlands, known for its unique geological features."
+    },
+    {
+        "mission": "Apollo 15",
+        "program": "Apollo",
+        "agency": "NASA",
+        "date": "1971-7-30",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-15-mission-details/",
+        "lat": 26.13407,
+        "lng": 3.62981,
+        "seismometer": {
+            "type": "Apollo Lunar Surface Experiments Package (ALSEP) Seismic Profiling Experiment (SPE)",
+            "deployment_date": "July 30, 1971",
+            "location": "Hadley-Apennine"
+        },
+        "description": "Focused on the Hadley-Apennine region, characterized by diverse geological formations."
+    },
+    {
+        "mission": "Apollo 16",
+        "program": "Apollo",
+        "agency": "NASA",
+        "date": "1972-4-21",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-16-mission-details/",
+        "lat": -8.97477,
+        "lng": 15.49749,
+        "seismometer": {
+            "type": "Apollo Lunar Surface Experiments Package (ALSEP) Active Seismic Experiment (ASE)",
+            "deployment_date": "April 21, 1972",
+            "location": "Descartes Highlands"
+        },
+        "description": "Exploration of the Descartes Highlands, known for unique geological compositions and features."
+    }
+]
