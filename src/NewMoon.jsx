@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Globe from 'react-globe.gl'
-import moon0 from '../src/assets/newMap.jpg';
+import moon0 from '../src/assets/map2.jpg';
 import moon1 from '../src/assets/moon1.jpg';
 import backgroundSpace from '../src/assets/spaceNew.jpg';
 import finalData from './data/final_data.json'
 import quakesData from './data/quakes_data.json'
 import missionData from './data/mission_data.json'
-import topo from '../src/assets/topo-final.jpg'
+import topo from '../src/assets/topo.jpg'
 import topoIcon from '../src/assets/topo-icon.png'
 import lunaIcon from '../src/assets/luna-icon.png'
 import elevationMap from '../src/assets/elevation.jpg'
@@ -173,7 +173,7 @@ function NewMoon() {
 
                 {selectedYear && selectedDay && missionData[selectedYear][selectedDay] && (
                     <div className="seismic-activity">
-                        <h2 className="font-bold text-sm text-yellow-300 uppercase">
+                        <h2 className="text-sm font-bold text-yellow-300 uppercase">
                             Seismic Data from {selectedMission.mission}, Year {selectedYear}, Day {selectedDay}
                         </h2>
                         <ul>
@@ -616,7 +616,7 @@ function NewMoon() {
             </div>
 
             {
-                !selectedMission && <div className="absolute right-0 flex flex-col items-center justify-center gap-2 bottom-0 m-5">
+                !selectedMission && <div className="absolute bottom-0 right-0 flex flex-col items-center justify-center gap-2 m-5">
                     <img src={AppLogo} alt="logo" className="w-auto h-12" />
                     <p className="text-xs text-white">
                         <span className="text-white/80">Made by</span>
